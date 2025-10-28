@@ -1,0 +1,20 @@
+body{
+    font-family: cursive;
+    font-size: 2rem;
+    color: blueviolet;
+}
+@media only screen and (min-width: 600px) {
+	body{
+		margin: auto;
+		width: 60%;
+	}
+	
+	main{
+		display: grid;
+		grid-gap: 1rem;
+		/* this makes a 3 column layout, you may choose any number > 1 */
+		grid-template-columns: 1fr 1fr 1fr 
+	}
+
+    /* write the rest of grid css under here */
+}
